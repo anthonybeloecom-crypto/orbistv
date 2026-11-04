@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orbis_bg">#FF000000</color>
+
+    <style name="Theme.Orbis" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/orbis_bg</item>
+        <item name="android:statusBarColor">@color/orbis_bg</item>
+        <item name="android:navigationBarColor">@color/orbis_bg</item>
+    </style>
+
+    <style name="Theme.Orbis.Player" parent="Theme.Orbis">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
